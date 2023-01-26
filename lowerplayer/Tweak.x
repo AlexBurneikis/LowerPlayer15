@@ -19,7 +19,7 @@ UIView *mediaPlayer;
 - (UIView *)findViewWithKind:(UIView *)view string:(NSString *)string {
 
 	if ([view isKindOfClass:NSClassFromString(string)]) {
-		return view.superview.superview.superview.superview;
+		return view.superview.superview.superview.superview.superview;
 	}
 
 	for (UIView *subview in view.subviews) {
