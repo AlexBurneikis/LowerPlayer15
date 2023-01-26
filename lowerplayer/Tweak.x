@@ -43,7 +43,7 @@ UIView *mediaPlayer;
 	if (mediaPlayer) {
 		CGRect frame = mediaPlayer.frame;
 
-		frame.origin.y = self.view.frame.size.height - (100 + frame.size.height);
+		frame.origin.y = self.view.frame.size.height - (110 + frame.size.height);
 		mediaPlayer.frame = frame;
 
 		[self.view addSubview:mediaPlayer];
